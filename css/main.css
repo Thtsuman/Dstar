@@ -142,6 +142,11 @@ a:hover {
     border-right: 3px solid var(--primary-color);
 }
 
+
+#header .header-grid .logo-text {
+    color: var(--secondary-light-color);
+}
+
 #header .header-grid .header-mid-section h1{
     font-size: 4rem;
     letter-spacing: 0.7rem;
