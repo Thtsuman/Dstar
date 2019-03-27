@@ -4,7 +4,7 @@
     --secondary-color: #AF09B2;
     --dark-color: #222;
     --light-color: #fff;
-    --secondary-light-color: #666666;
+    --secondary-light-color: #8C8C8C;
     --max-width: 1200px;
     --animation-speed: 2s;
 }
@@ -140,11 +140,6 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     border-right: 3px solid var(--primary-color);
-}
-
-
-#header .header-grid .logo-text {
-    color: var(--secondary-light-color);
 }
 
 #header .header-grid .header-mid-section h1{
