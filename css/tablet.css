@@ -1,0 +1,104 @@
+p {
+    padding: 0.2rem;
+    font-size: 0.7rem;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.heading {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+#header .header-grid {
+    grid-template-rows: 1fr 1fr 3fr; 
+}
+
+#header .header-grid .header-mid-section {
+    width: 50vw;
+}
+
+#header .header-grid .logo-section h3{
+    font-size: 0.5rem;
+}
+
+#header .header-grid .header-mid-section h1 {
+    font-size: 3rem;
+}
+
+
+#header .header-grid .header-bottom-section h5 {
+    font-size: 0.7rem;
+}
+
+#demo1 {
+    position: absolute;
+    top: 0;
+    left: 70vw;
+    right: 0;
+    bottom: 0;
+
+    z-index: -1;
+}
+
+
+
+#about {
+    height: 50vh;
+    width: 100vw
+}
+
+#about .about-grid {
+    padding-top: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#about .about-grid .card:nth-child(2) {
+    display: none;
+    background: url('../img/cover.jpg') no-repeat center center/cover;
+    border-radius: 2px;
+}
+#about .about-grid .card {
+    width: 100%;
+}
+
+
+
+#dancer {
+    height: 130vh;
+}
+
+#dancer .dancer-text {
+    padding-top: 1rem;
+}
+
+#dancer .dancer-grid div p {
+    padding: 1rem;
+}
+
+#dancer .dancer-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-footer .footer-grid .social {
+    padding-left: 1rem;
+}
+
+#main-footer .footer-grid .social a  {
+    width: 10px;
+    height: 10px;
+    margin-right: 0.5rem;
+
+}
+
+#parallax .parallax-text p {
+    display: none;
+}
